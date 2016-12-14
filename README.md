@@ -2,9 +2,9 @@
 
 ![NPM](https://img.shields.io/badge/platform-windows%20%7C%20linux%20%7C%20ios-orange.svg) ![NPM](https://img.shields.io/badge/license-MIT-blue.svg) ![NPM](https://img.shields.io/badge/status-stable-green.svg)
 
-![NPM](https://nodei.co/npm/npm-install-all.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/npm-install-all/)
+[![NPM](https://nodei.co/npm/npm-install-all.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/npm-install-all/)
 
-![NPM](https://nodei.co/npm-dl/npm-install-all.png?height=3)](https://nodei.co/npm/npm-install-all/)
+[![NPM](https://nodei.co/npm-dl/npm-install-all.png?height=3)](https://nodei.co/npm/npm-install-all/)
 
 This module simply recognizes all the require commands and help you to install all the npm modules and also save it in your package.json.
 This is a pretty cool module which reduces the work of repetitive installation of npm modules which are not present in your package.json to run an application. If there exists a package.json, it saves it as dependencies inside it, else creates it.
