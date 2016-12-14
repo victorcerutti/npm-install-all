@@ -1,6 +1,6 @@
 {
   "name": "npm-install-all",
-  "version": "1.1.19",
+  "version": "1.1.20",
   "description": "This is a npm module to install all dependent npm packages for a particular file or folder or a project and save it in package.json.",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/palabin/npm-install-all.git"
+    "url": "git+https://github.com/yantrashala/npm-install-all.git"
   },
   "author": {
     "name": "Abin Pal"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/palabin/npm-install-all/issues"
+    "url": "https://github.com/yantrashala/npm-install-all/issues"
   },
-  "homepage": "https://github.com/palabin/npm-install-all#readme",
+  "homepage": "https://github.com/yantrashala/npm-install-all#readme",
   "dependencies": {
     "bluebird": "^3.3.1",
     "handlebars": "^4.0.5",
