@@ -7,6 +7,8 @@ var dir = require('node-dir');
 var execSync = require("sync-exec");
 var fs = require('fs');
 var path = require('path');
+var ignoredModules = require('./ignored-modules');
+
 var moduleArr = [];
 var fileName = process.argv[2];
 var fileNames = [];
@@ -22,7 +24,7 @@ function storingModuleNames(fn){
       var mat = regex.exec(line);
       if(mat != null){
         mat[1] = mat[1].replace(/'/g, '');
-        if (moduleArr.indexOf(mat[1]) == -1) {
+        if (moduleArr.indexOf(mat[1]) == -1 && ignoredModules.indexOf(mat[1]) === -1) {
           moduleArr.push(mat[1]);
         }
       }
